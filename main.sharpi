@@ -1,0 +1,3 @@
+init "hi"
+min x = 10
+init x
