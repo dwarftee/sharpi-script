@@ -19,7 +19,11 @@ function compile() {
       console.error(err);
       return;
     }
-    var code = data;
+    var word = data;
+
+    //turn code into a array
+    var code = word.split(" ");
+
     const c = new a(code);
     c.run();
   });

@@ -1,3 +1,1 @@
-init "hi"
-min x = 10
-init x
+init "hi"; min x = 10; init x;
