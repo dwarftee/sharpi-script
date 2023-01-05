@@ -7,6 +7,10 @@ class a{
     }
 }
 
+
+
+//code that runs
+
 const fs = require('fs');
 
 fs.readFile('main.sharpi', 'utf8', (err, data) => {
